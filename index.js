@@ -1,1 +1,1 @@
-const Shape = require('./lib/shapes.js');
+const Shape = require('./lib/shape.js');
