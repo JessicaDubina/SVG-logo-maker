@@ -37,7 +37,13 @@ const init = () => {
         const svgText = generateSvg(shapeText, answers);
         
         //write svg file
-
+        fs.writeFile(`logo.svg`, svgText, (err) => {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("Generated logo.svg");
+            }
+        })
     })
 }
 
