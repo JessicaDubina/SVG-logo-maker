@@ -9,7 +9,7 @@ This app uses Inquirer 6.5.0 and Jest for testing. Please npm install prior to u
 ## Usage
 Please refer to the video below
 
-![demo of how to use the app]([https://drive.google.com/file/d/1mn_Op_dvH0Gl19l5adkXkH5VuAhzt_DG/view?usp=sharing])
+![demo of how to use the app](https://drive.google.com/file/d/1ekbPabOdwpiVyvdhM89EJa1cOlF11TrM/view)
 
 ## Credits
 N/A
