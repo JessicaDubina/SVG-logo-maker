@@ -1,5 +1,8 @@
+//import shape classes from shapes file
 const {Square, Triangle, Circle, } = require('../lib/shapes.js');
 
+//test square class is created correctly. 
+//test square.render() provides a string output to use for the svg file
 describe('Square', () => {
     it("should generate a Square class object with preset specs" , () => {
         let sq = new Square;
@@ -15,6 +18,8 @@ describe('Square', () => {
     })
 });
 
+//test triangle class is created correctly. 
+//test triangle.render() provides a string output to use for the svg file
 describe('Triangle', () => {
     it("should generate a Triange class object with preset specs" , () => {
         let tri = new Triangle;
@@ -27,6 +32,8 @@ describe('Triangle', () => {
     })
 });
 
+//test circle class is created correctly. 
+//test circle.render() provides a string output to use for the svg file
 describe('Circle', () => {
     it("should generate a Circle class object with preset specs" , () => {
         let cir = new Circle;

@@ -1,5 +1,3 @@
-// const Shape = require('./lib/shape.js');
-// const shapes = require('./lib/shapes.js');
 const inquirer = require('inquirer');
 const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt');
 const fs = require('fs');
