@@ -1,16 +1,19 @@
 // const Shape = require('./lib/shape.js');
 // const shapes = require('./lib/shapes.js');
-let inquirer = require('inquirer');
-let fs = require('fs');
+const inquirer = require('inquirer');
+const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt');
+const fs = require('fs');
 const { convertShape, generateSvg } = require('./lib/svg-outline.js');
 
 const init = () => {
     //user input prompts to create desired svg logo
+    inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt)
     inquirer.prompt([
         {
-            type: "input",
+            type: "maxlength-input",
             name: "chars",
             message: "Please enter up to 3 letters",
+            maxLength: 3,
         },
         {
             type: "input",
